@@ -1,74 +1,67 @@
-Electric Motor Temperature Prediction Using Machine Learning
-Project Overview
+# 🚀 Electric Motor Temperature Prediction Using Machine Learning
 
-This project predicts the Permanent Magnet Surface (Rotor) Temperature of an electric motor using Machine Learning models and a Flask web application.
+## 📌 Project Overview
+
+This project predicts the **Permanent Magnet Surface (Rotor) Temperature** of an electric motor using Machine Learning models and a Flask web application.
 
 The system takes motor sensor inputs and predicts the rotor temperature for monitoring and predictive maintenance.
 
-Technologies Used
+---
 
-Python
+## 🛠 Technologies Used
 
-Pandas
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Flask  
+- HTML & CSS  
 
-NumPy
+---
 
-Scikit-learn
+## 🤖 Machine Learning Workflow
 
-Flask
+1. Dataset collection from Kaggle  
+2. Data preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Feature selection  
+5. Train-test split  
+6. Model training:
+   - Linear Regression
+   - Decision Tree
+   - Random Forest (Best Model)
+7. Model evaluation using:
+   - R² Score
+   - RMSE
+8. Model saved using `joblib`
+9. Flask deployment  
 
-HTML & CSS
+---
 
-Machine Learning Workflow
+## 📊 Model Performance
 
-Dataset collection from Kaggle
+| Model              | R² Score | RMSE  |
+|--------------------|----------|-------|
+| Linear Regression  | 0.60     | 11.98 |
+| Decision Tree      | 0.87     | 6.62  |
+| Random Forest      | 0.89     | 6.15  |
 
-Data preprocessing
+✅ **Random Forest performed best and is used for deployment.**
 
-Exploratory Data Analysis (EDA)
+---
 
-Feature selection
+## 📂 Dataset
 
-Train-test split
+- **Dataset Name:** PMSM Temperature Dataset  
+- **Source:**  
+  https://www.kaggle.com/datasets/wkirgsn/electric-motor-temperature  
 
-Model training:
+> ⚠ Due to GitHub file size limits, the dataset is not uploaded.  
+> Download it from Kaggle and place it in the project root directory.
 
-Linear Regression
+---
 
-Decision Tree
-
-Random Forest (Best Model)
-
-Model evaluation using:
-
-R² Score
-
-RMSE
-
-Model saved using joblib
-
-Flask deployment
-
-Model Performance
-Model	R² Score	RMSE
-Linear Regression	0.60	11.98
-Decision Tree	0.87	6.62
-Random Forest	0.89	6.15
-
-Random Forest performed best and is used for deployment.
-
-Dataset
-
-Dataset Name: PMSM Temperature Dataset
-Source:
-https://www.kaggle.com/datasets/wkirgsn/electric-motor-temperature
-
-Note:
-Due to GitHub file size limits, the dataset is not uploaded.
-Download it from Kaggle and place it in the project root directory.
-
-Project Structure
-
+## 📁 Project Structure
 Electric_Motor_Temperature_Project
 │
 ├── Flask/
@@ -83,42 +76,39 @@ Electric_Motor_Temperature_Project
 ├── transform.save
 └── README.md
 
-How to Run Locally
 
-Open terminal
+---
 
-Go to Flask folder:
+## ▶️ How to Run Locally
 
+1️⃣ Open terminal  
+
+2️⃣ Go to Flask folder:
+
+```bash
 cd Flask
 
-Install requirements:
-
+3️⃣ Install requirements:
 pip install -r requirements.txt
 
-Run app:
-
+4️⃣ Run the application:
 python app.py
 
-Open browser:
-
+5️⃣ Open browser:
 http://127.0.0.1:5000
 
-Use Case
+🎯 Use Case
 
 This system can be used for:
-
 Electric motor temperature monitoring
-
 Predictive maintenance
-
 Industrial motor health analysis
 
-Deployment
+
+🌐 Deployment
 
 This project can be deployed using:
 
 Render
-
 Railway
-
 Heroku
