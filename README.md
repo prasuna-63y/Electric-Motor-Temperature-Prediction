@@ -108,7 +108,5 @@ Industrial motor health analysis
 🌐 Deployment
 
 This project can be deployed using:
-
-Render
-Railway
-Heroku
+link:
+https://electric-motor-temperature-prediction-1-2lnd.onrender.com/
