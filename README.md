@@ -105,8 +105,8 @@ Predictive maintenance
 Industrial motor health analysis
 
 
-🌐 Deployment
+## 🌐 Live Demo
 
-This project can be deployed using:
-link:
-https://electric-motor-temperature-prediction-1-2lnd.onrender.com/
+[Click Here to Open the Application](https://electric-motor-temperature-prediction-1-2lnd.onrender.com/)
+
+
