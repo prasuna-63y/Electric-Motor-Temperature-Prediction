@@ -108,4 +108,7 @@ Industrial motor health analysis
 ## 🌐 Live Demo
 https://electric-motor-temperature-prediction-1-2lnd.onrender.com/
 
+DEMO VIDEO:
+https://drive.google.com/file/d/1Ltb4HvUFvx7EeXuZF0C9c90869jsBTlm/view?usp=sharing
+
 
