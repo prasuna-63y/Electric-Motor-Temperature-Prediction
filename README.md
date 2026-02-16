@@ -106,7 +106,6 @@ Industrial motor health analysis
 
 
 ## 🌐 Live Demo
-
-[Click Here to Open the Application](https://electric-motor-temperature-prediction-1-2lnd.onrender.com/)
+https://electric-motor-temperature-prediction-1-2lnd.onrender.com/
 
 
