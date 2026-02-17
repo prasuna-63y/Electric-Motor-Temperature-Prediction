@@ -85,7 +85,6 @@ Electric_Motor_Temperature_Project
 
 2️⃣ Go to Flask folder:
 
-```bash
 cd Flask
 
 3️⃣ Install requirements:
