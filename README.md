@@ -110,9 +110,5 @@ https://electric-motor-temperature-prediction-1-2lnd.onrender.com/
 
 DEMO VIDEO:
 https://drive.google.com/file/d/1Ltb4HvUFvx7EeXuZF0C9c90869jsBTlm/view?usp=sharing
-## 🎥 Project Demo Video
 
-<video width="700" controls>
-  <source src="demo.mp4" type="video/mp4">
-</video>
 
